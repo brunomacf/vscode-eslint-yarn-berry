@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowUnreachableCode": false,
+    "alwaysStrict": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "lib",
+    "paths": {},
+    "removeComments": true,
+    "sourceMap": true,
+    "sourceRoot": "/",
+    "strictNullChecks": true,
+    "target": "es2020"
+  },
+  "exclude": [],
+  "include": [
+    "./*.ts",
+    "./src/*.ts"
+  ]
+}
