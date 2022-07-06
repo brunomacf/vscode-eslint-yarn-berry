@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:34069774f764f6c076c76cefb79f9c00ee35c2ecc2faeec6f1f046eac9e499da19f7441a38c80f3dc82287abf91ba64b7783b2e2d997751e40d1ad563ff4f78d#npm:5.30.4"],\
             ["eslint", "npm:8.19.0"],\
             ["eslint-import-resolver-node", "npm:0.3.6"],\
-            ["eslint-import-resolver-typescript", "virtual:34069774f764f6c076c76cefb79f9c00ee35c2ecc2faeec6f1f046eac9e499da19f7441a38c80f3dc82287abf91ba64b7783b2e2d997751e40d1ad563ff4f78d#npm:3.2.0"],\
+            ["eslint-import-resolver-typescript", "virtual:34069774f764f6c076c76cefb79f9c00ee35c2ecc2faeec6f1f046eac9e499da19f7441a38c80f3dc82287abf91ba64b7783b2e2d997751e40d1ad563ff4f78d#npm:3.2.4"],\
             ["eslint-plugin-import", "virtual:34069774f764f6c076c76cefb79f9c00ee35c2ecc2faeec6f1f046eac9e499da19f7441a38c80f3dc82287abf91ba64b7783b2e2d997751e40d1ad563ff4f78d#npm:2.26.0"],\
             ["lodash", "npm:4.17.21"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"]\
@@ -374,6 +374,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@unts/get-tsconfig", [\
+        ["npm:4.1.1", {\
+          "packageLocation": "./.yarn/cache/@unts-get-tsconfig-npm-4.1.1-cd923b7adf-dff677518c.zip/node_modules/@unts/get-tsconfig/",\
+          "packageDependencies": [\
+            ["@unts/get-tsconfig", "npm:4.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["acorn", [\
         ["npm:8.7.1", {\
           "packageLocation": "./.yarn/cache/acorn-npm-8.7.1-7c7a019990-aca0aabf98.zip/node_modules/acorn/",\
@@ -502,7 +511,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:34069774f764f6c076c76cefb79f9c00ee35c2ecc2faeec6f1f046eac9e499da19f7441a38c80f3dc82287abf91ba64b7783b2e2d997751e40d1ad563ff4f78d#npm:5.30.4"],\
             ["eslint", "npm:8.19.0"],\
             ["eslint-import-resolver-node", "npm:0.3.6"],\
-            ["eslint-import-resolver-typescript", "virtual:34069774f764f6c076c76cefb79f9c00ee35c2ecc2faeec6f1f046eac9e499da19f7441a38c80f3dc82287abf91ba64b7783b2e2d997751e40d1ad563ff4f78d#npm:3.2.0"],\
+            ["eslint-import-resolver-typescript", "virtual:34069774f764f6c076c76cefb79f9c00ee35c2ecc2faeec6f1f046eac9e499da19f7441a38c80f3dc82287abf91ba64b7783b2e2d997751e40d1ad563ff4f78d#npm:3.2.4"],\
             ["eslint-plugin-import", "virtual:34069774f764f6c076c76cefb79f9c00ee35c2ecc2faeec6f1f046eac9e499da19f7441a38c80f3dc82287abf91ba64b7783b2e2d997751e40d1ad563ff4f78d#npm:2.26.0"],\
             ["lodash", "npm:4.17.21"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"]\
@@ -854,24 +863,27 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["eslint-import-resolver-typescript", [\
-        ["npm:3.2.0", {\
-          "packageLocation": "./.yarn/cache/eslint-import-resolver-typescript-npm-3.2.0-45ffa1190e-7facccbaec.zip/node_modules/eslint-import-resolver-typescript/",\
+        ["npm:3.2.4", {\
+          "packageLocation": "./.yarn/cache/eslint-import-resolver-typescript-npm-3.2.4-6926af644b-3417dabb0e.zip/node_modules/eslint-import-resolver-typescript/",\
           "packageDependencies": [\
-            ["eslint-import-resolver-typescript", "npm:3.2.0"]\
+            ["eslint-import-resolver-typescript", "npm:3.2.4"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:34069774f764f6c076c76cefb79f9c00ee35c2ecc2faeec6f1f046eac9e499da19f7441a38c80f3dc82287abf91ba64b7783b2e2d997751e40d1ad563ff4f78d#npm:3.2.0", {\
-          "packageLocation": "./.yarn/__virtual__/eslint-import-resolver-typescript-virtual-19ced82f40/0/cache/eslint-import-resolver-typescript-npm-3.2.0-45ffa1190e-7facccbaec.zip/node_modules/eslint-import-resolver-typescript/",\
+        ["virtual:34069774f764f6c076c76cefb79f9c00ee35c2ecc2faeec6f1f046eac9e499da19f7441a38c80f3dc82287abf91ba64b7783b2e2d997751e40d1ad563ff4f78d#npm:3.2.4", {\
+          "packageLocation": "./.yarn/__virtual__/eslint-import-resolver-typescript-virtual-e8d0dfa104/0/cache/eslint-import-resolver-typescript-npm-3.2.4-6926af644b-3417dabb0e.zip/node_modules/eslint-import-resolver-typescript/",\
           "packageDependencies": [\
-            ["eslint-import-resolver-typescript", "virtual:34069774f764f6c076c76cefb79f9c00ee35c2ecc2faeec6f1f046eac9e499da19f7441a38c80f3dc82287abf91ba64b7783b2e2d997751e40d1ad563ff4f78d#npm:3.2.0"],\
+            ["eslint-import-resolver-typescript", "virtual:34069774f764f6c076c76cefb79f9c00ee35c2ecc2faeec6f1f046eac9e499da19f7441a38c80f3dc82287abf91ba64b7783b2e2d997751e40d1ad563ff4f78d#npm:3.2.4"],\
             ["@types/eslint", null],\
             ["@types/eslint-plugin-import", null],\
             ["debug", "virtual:1f3c51be25fef20e854261431be23d317093b3b463e81e911f4f45a636ff582620db066c9d2a5922a428e07e10fe4788eee8196c796ce2c9bd49d22743fec207#npm:4.3.4"],\
             ["enhanced-resolve", "npm:5.10.0"],\
             ["eslint", "npm:8.19.0"],\
             ["eslint-plugin-import", "virtual:34069774f764f6c076c76cefb79f9c00ee35c2ecc2faeec6f1f046eac9e499da19f7441a38c80f3dc82287abf91ba64b7783b2e2d997751e40d1ad563ff4f78d#npm:2.26.0"],\
-            ["get-tsconfig", "npm:4.1.0"],\
+            ["get-tsconfig", [\
+              "@unts/get-tsconfig",\
+              "npm:4.1.1"\
+            ]],\
             ["globby", "npm:13.1.2"],\
             ["is-core-module", "npm:2.9.0"],\
             ["is-glob", "npm:4.0.3"],\
@@ -1246,15 +1258,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["get-symbol-description", "npm:1.0.0"],\
             ["call-bind", "npm:1.0.2"],\
             ["get-intrinsic", "npm:1.1.2"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["get-tsconfig", [\
-        ["npm:4.1.0", {\
-          "packageLocation": "./.yarn/cache/get-tsconfig-npm-4.1.0-625beb501f-a1a29cdf53.zip/node_modules/get-tsconfig/",\
-          "packageDependencies": [\
-            ["get-tsconfig", "npm:4.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
